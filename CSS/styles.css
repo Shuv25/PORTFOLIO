@@ -1,0 +1,110 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.custom-navbar {
+    background-color: black !important;
+}
+
+.custom-navbar .navbar-brand,
+.custom-navbar .nav-link {
+    color: white !important;
+    /* font-family: 'Times New Roman', Times, serif !important; */
+}
+
+.custom-navbar .navbar-toggler-icon {
+    background-color: white !important;
+}
+
+.custom-navbar .nav-link.active {
+    font-weight: bold;
+}
+
+
+.home-img {
+    background-image: url("../IMAGES/5651992.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.home-img h1 {
+    color: white;
+}
+
+.name {
+    color: white;
+    font-weight: 700;
+}
+
+.home-img p {
+    color: silver;
+}
+
+.container h2 {
+    text-align: center;
+}
+
+#about {
+    background-image: url("../IMAGES/5651992.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 60px 0;
+}
+
+#about .container {
+    padding: 40px 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#about .container h2,
+#about .container h3 {
+    color: white !important;
+}
+
+#about .container p {
+    color: silver;
+}
+
+#about .container .icon-square {
+    margin-top: 10px;
+}
+
+
+#project {
+    background-image: url("../IMAGES/5651992.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 60px 0;
+}
+
+#project .container {
+    padding: 40px 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#project h2 {
+    color: white !important;
+}
+
+#footer {
+    background-image: url("../IMAGES/5651992.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 30px 0;
+}
+
+.footer-container {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.footer-container span {
+    color: white !important;
+}
